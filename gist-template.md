@@ -48,8 +48,7 @@ There are three groups within our code
 Bracked expressios for email validation includes the character sets of [a-z0-9_\.-], which is matching any letter a-z and is case senstive. It also matches a character 0-9 and matches the characters "_" , "-" , and "."; [\da-z\.-], which is matching a single digit from 0-9, any character a-z (case senstive), and the characters "." and "-".; [a-z\.] matches any character a-z(case senstive) and the character ".".
 ### Greedy and Lazy Match
 A Greedy Match is created when a regex includes a "+"
-
-The + basically means "as many as possible" of the previous character(s), For example, A+ would match "A", "AA", "AAA", and so on because it will match as many "A"s that may exist in the location.
+which will match as many times as possible giving back as needed. 
 ## Author
 My name is Joseph Hudak thanks for taking the time to read this and here is a link to my github https://github.com/Magicalburritos
 where you can check out more stuff i am working on.
